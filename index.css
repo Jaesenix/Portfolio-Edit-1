@@ -1,0 +1,119 @@
+body {
+    background-image: url("./images/city.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(122, 121, 121);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+p {
+    margin-top: 100px;
+    margin-left: -110px;
+    margin-right: 300px;
+    margin-bottom: -50px;
+    position: relative;
+    float: left;
+    clear: left;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+}
+
+.navLogo {
+    height: 100%;
+    width: 150px;
+    padding: 0;
+    margin-top: -15px;
+    margin-bottom: -12px;
+    margin-left: 50px;
+    color: white;
+;}
+
+.navName {
+    font-size: 30px;
+    font-family: serif;
+    margin-left: 20px;
+}
+
+ .navAbout {
+     justify-content: space-between;
+     margin: 10px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .navPortfolio {
+    justify-content: space-between;
+     margin: 10px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+.navContact {
+    justify-content: space-evenly;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    color: gray;  
+}
+
+.page-header {
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 15px;
+    font-size: 10px;
+    font-family: serif;
+}
+
+.photo {
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    display: flex;
+    align-content: left;
+    padding: 5px;
+}
+
+.container2 {
+    width: 1024px;
+    border-color: lightgray;
+    margin-left: 50px;
+}
+
+.intro {
+    margin-left: 50px;
+    margin-top: 10px;
+    position: static;
+}
+
+footer {
+    background: rgb(53, 52, 52);
+    color: white;
+    padding: 5px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+}}
+
+
+
+
