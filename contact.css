@@ -117,10 +117,17 @@ footer {
     text-align: center;
     width: 100%;
     height: 40px;
-    margin-left: -163px;
-    position: fixed;
+    left: 0;
+    position: absolute;
     bottom: 0;
 }
+
+    @media screen and (max-width: 600px) {
+        .column {
+            flex: 100%;
+            max-width: 100%;
+}
+    }
 
 
 

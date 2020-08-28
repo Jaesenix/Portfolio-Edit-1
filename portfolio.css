@@ -13,20 +13,27 @@ title {
     padding: 0;
 }
 
+.navbar {
+    margin-left: 0px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: relative;
+}
+
 .navLogo {
+    position: absolute;
     height: 100%;
-    width: 100px;
+    width: 100%;
     padding: 0;
-    margin-top: -15px;
-    margin-bottom: -12px;
-    margin-left: -10px;
+    top: 0px;
     color: white;
 }
 
 .navName {
     font-size: 30px;
     font-family: serif;
-    margin-left: 20px;
+    margin-left: 50px;
  }
 
  .navAbout {
@@ -65,10 +72,6 @@ title {
     margin-top: -30px;
 }
 
-.container2 {
-    position: relative;
-}
-
 .cooking {
     margin-top: -20px;
     margin-left: 50px;
@@ -78,24 +81,24 @@ title {
     height: 200px;
 }
 
-.cuisineText {
+.cookingText {
     margin-left: 60px;
     margin-top: 0px;
     width: 150px;
     font-size: medium;
 }
 
-.cuisineCredit {
+.cookingCredit {
     font-size: x-small;
     margin-left: 60px;
-    margin-top: 0px;
+    margin-top: -5px;
     width: 180px;
     height: 20px;
 }
 
 .password {
-    margin-top: 5px;
-    margin-left: 40px;
+    margin-top: -350px;
+    margin-left: 400px;
     margin-bottom: 0px;
     padding: 10px;
     width: 200px;
@@ -103,23 +106,23 @@ title {
 }
 
 .passwordText {
-    margin-left: 50px;
-    margin-top: 0px;
+    margin-left: 410px;
+    margin-top: -85px;
     width: 150px;
     font-size: medium;
 }
 
 .passwordCredit {
     font-size: x-small;
-    margin-left: 50px;
-    margin-top: 0px;
+    margin-left: 410px;
+    margin-top: -5px;
     width: 180px;
     height: 20px;
 }
 
 .employee {
-    margin-top: -20x;
-    margin-left: 50px;
+    margin-top: -370px;
+    margin-left: 750px;
     margin-bottom: -20px;
     padding: 10px;
     width: 200px;
@@ -127,16 +130,16 @@ title {
 }
 
 .employeeText {
-    margin-left: 60px;
-    margin-top: 15px;
+    margin-left: 760px;
+    margin-top: -85px;
     width: 150px;
     font-size: medium;
 }
 
 .employeeCredit {
     font-size: x-small;
-    margin-left: 60px;
-    margin-top: 0px;
+    margin-left: 760px;
+    margin-top: -5px;
     width: 180px;
     height: 20px;
 }
@@ -153,11 +156,11 @@ footer {
     padding: 5px;
     font-size: small;
     text-align: center;
-    width: 1500px;
+    width: 100%;
     height: 50px;
-    margin-left: -150px;
     position: absolute;
-    bottom: -85px;
+    right: 0;
+    bottom: 0;
 }
 
 @media screen and (max-width: 600px) {
